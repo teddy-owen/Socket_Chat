@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap.css">
+    
+    <!-- Socket IO -->
+    <script src="socket.io.js"></script>
+    
+    <!-- JQuery -->
+    <script src="jquery-3.3.1.slim.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+    
+</head>
+<body class="d-flex justify-content-center">
+    <div class="w-100 d-flex flex-column align-items-stretch justify-content-between">
+        
+        <h1 class="text-center">Private Chat</h1>
+        <div id="msg-box" class="border border-info round flex-grow-1 d-flex flex-column p-1">
+            
+        </div>
+        <ul id="messages"></ul>
+        <div id="typing"></div>
+        <form action="" class="d-flex flex-shrink-0 p-2">
+            <input id="m" autocomplete="off" class="flex-grow-1 input-group"/>
+            <button class="btn btn-primary ml-3">Send</button>
+        </form>
+    </div>
+        
+    <!-- Bootstrap -->
+    <script src="popper.min.js" ></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
