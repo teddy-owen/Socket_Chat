@@ -1,6 +1,8 @@
 # Socket_Chat
 Basic chat app built w/ SocketIO
 
+![Image of chat app](https://raw.githubusercontent.com/teddy-owen/Socket_Chat/master/chat_app.png)
+
 To get started:
 1. clone the repo
 1. pip3 install socketio, engineio and eventlet
